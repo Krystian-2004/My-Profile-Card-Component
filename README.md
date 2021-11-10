@@ -20,8 +20,8 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 ### Screenshot
 
-![Screenshot](https://github.com/Krystian-2004/Stats-preview-card-component/blob/main/design/Screenshot.JPG)
-![Screenshot-mobile](https://github.com/Krystian-2004/Stats-preview-card-component/blob/main/design/Screenshot.JPG)
+![Screenshot](https://github.com/Krystian-2004/My-Profile-Card-Component/blob/main/design/screenshot.JPG)
+![Screenshot-mobile](https://github.com/Krystian-2004/My-Profile-Card-Component/blob/main/design/screenshot-mobile.png)
 
 ### Links
 
