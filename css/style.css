@@ -1,0 +1,282 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  font-family: 'Kumbh Sans', sans-serif;
+  font-size: 18px;
+  background-color: #19a2ae;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.card-index {
+  z-index: 1;
+}
+
+.card {
+  width: 450px;
+  min-height: 300px;
+  background-color: #fff;
+  border-radius: 25px;
+  -webkit-box-shadow: 0px 8px 14px -3px #2d3248;
+          box-shadow: 0px 8px 14px -3px #2d3248;
+}
+
+.card .img-top img {
+  width: 100%;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+}
+
+.card .full-personal-data {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.card .full-personal-data .card2 {
+  width: 100%;
+  height: 150px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.card .full-personal-data .card2 .avatar {
+  -webkit-transform: translate(0, -50%);
+          transform: translate(0, -50%);
+}
+
+.card .full-personal-data .card2 .avatar img {
+  border: 5px solid #fff;
+  border-radius: 50%;
+}
+
+.card .full-personal-data .card2 .personal-data {
+  -webkit-transform: translate(0, -70%);
+          transform: translate(0, -70%);
+}
+
+.card .full-personal-data .card2 .personal-data .name {
+  font-size: 20px;
+  font-weight: 700;
+  color: #2d3248;
+  letter-spacing: .5px;
+}
+
+.card .full-personal-data .card2 .personal-data .name span {
+  margin-left: 5px;
+  font-weight: normal;
+  color: #6a6f81;
+}
+
+.card .full-personal-data .card2 .personal-data .city {
+  margin-top: 10px;
+  text-align: center;
+  color: #6a6f81;
+  font-size: 16px;
+}
+
+.card .full-personal-data .stats {
+  width: 100%;
+  height: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  border-top: 1px solid #96969659;
+}
+
+.card .full-personal-data .stats div {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.card .full-personal-data .stats div p {
+  text-align: center;
+}
+
+.card .full-personal-data .stats div .first-paragraph {
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: .5px;
+  color: #2d3248;
+}
+
+.card .full-personal-data .stats div .second-paragraph {
+  margin-top: 3px;
+  color: #6a6f81;
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+
+.bg-pattern {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.bg-pattern .bg-pattern-top {
+  position: absolute;
+  width: 75%;
+  right: 50%;
+  bottom: 30%;
+}
+
+.bg-pattern .bg-pattern-bottom {
+  position: absolute;
+  width: 75%;
+  left: 50%;
+  top: 30%;
+}
+
+@media screen and (min-width: 320px) and (max-width: 425px) {
+  img {
+    display: block;
+  }
+  .card {
+    width: 85vw;
+  }
+  .card .full-personal-data {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .card .full-personal-data .card2 {
+    width: 100%;
+    height: 150px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .card .full-personal-data .card2 .avatar {
+    -webkit-transform: translate(0, -50%);
+            transform: translate(0, -50%);
+  }
+  .card .full-personal-data .card2 .avatar img {
+    border: 5px solid #fff;
+    border-radius: 50%;
+  }
+  .card .full-personal-data .card2 .personal-data {
+    -webkit-transform: translate(0, -70%);
+            transform: translate(0, -70%);
+  }
+  .card .full-personal-data .card2 .personal-data .name {
+    font-weight: 700;
+    color: #2d3248;
+    letter-spacing: .5px;
+  }
+  .card .full-personal-data .card2 .personal-data .name span {
+    margin-left: 5px;
+    font-weight: normal;
+    color: #6a6f81;
+  }
+  .card .full-personal-data .card2 .personal-data .city {
+    margin-top: 10px;
+    text-align: center;
+    color: #6a6f81;
+    font-size: 16px;
+  }
+  .card .full-personal-data .stats {
+    width: 100%;
+    height: 100px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    border-top: 1px solid #96969659;
+  }
+  .card .full-personal-data .stats div {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .card .full-personal-data .stats div p {
+    text-align: center;
+  }
+  .card .full-personal-data .stats div .first-paragraph {
+    font-weight: 700;
+    letter-spacing: .5px;
+    color: #2d3248;
+  }
+  .card .full-personal-data .stats div .second-paragraph {
+    margin-top: 3px;
+    color: #6a6f81;
+    font-size: 14px;
+    letter-spacing: 1px;
+  }
+  .bg-pattern {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+  .bg-pattern .bg-pattern-top {
+    width: 100%;
+    right: 50%;
+    bottom: 70%;
+  }
+  .bg-pattern .bg-pattern-bottom {
+    width: 100%;
+    left: 50%;
+    top: 65%;
+  }
+}
+/*# sourceMappingURL=style.css.map */
